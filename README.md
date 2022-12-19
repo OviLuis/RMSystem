@@ -12,7 +12,7 @@ Para ejecutar el microservicio localmente.
 
 
 Para ejecutar el microservicio desde docker:
-1. levantar el contenedor con el servicio de redis: [RedisService](https://github.com/OviLuis/RedisService)
+1. levantar el contenedor con el servicio de redis sino se ha levantado aun: [RedisService](https://github.com/OviLuis/RedisService)
 1. construir la imagen `producer`. ejecutar `docker build -t producer .` desde la raiz del proyecto donde esta ubicado el archivo `Dockerfile`
 2. ejecutar `docker-compose up -d` desde la raiz del proyecto o donde este ubicado el archivo `docker-compose.yml`
 
